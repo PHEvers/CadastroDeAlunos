@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "CadastroDeAlunos.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CadastroDeAlunos.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CadastroDeAlunos.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CadastroDeAlunos.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CadastroDeAlunos.Domain/CadastroDeAlunos.Domain.csproj",
+      "msbuildProject": "../CadastroDeAlunos.Domain/CadastroDeAlunos.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "CadastroDeAlunos.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\pedro\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\C#\\Projetos Pessoais\\Projetos em andamento\\CadastroDeAlunos\\src\\CadastroDeAlunos.Domain\\CadastroDeAlunos.Domain.csproj": {
+              "projectPath": "C:\\C#\\Projetos Pessoais\\Projetos em andamento\\CadastroDeAlunos\\src\\CadastroDeAlunos.Domain\\CadastroDeAlunos.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
