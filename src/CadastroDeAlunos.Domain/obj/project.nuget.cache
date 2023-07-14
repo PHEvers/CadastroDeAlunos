@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KMHuBMAiZISMB4cD1AJLoqkSiSLYOsPHetNkJrzPvN0K1pJzt5HcsRMAemq9MLsNHdnMKgZtfkl3AdTM/ZhdcQ==",
+  "dgSpecHash": "GQYSu0qsoJrWbqYFsUKvm/ogHf+OZ7a2DcHizcQ/AMmhSUboAvKVBaNitBYpuoFp3YiOSApN/n69B77UuW7E4g==",
   "success": true,
-  "projectFilePath": "C:\\C#\\Projetos Pessoais\\Projetos em andamento\\CadastroDeAlunos\\CadastroDeAlunos.Domain\\CadastroDeAlunos.Domain.csproj",
+  "projectFilePath": "C:\\C#\\Projetos Pessoais\\Projetos em andamento\\CadastroDeAlunos\\src\\CadastroDeAlunos.Domain\\CadastroDeAlunos.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
